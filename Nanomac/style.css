@@ -1,0 +1,92 @@
+*
+{
+	margin:0;
+	padding: 0;
+}
+header
+{
+	background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url('workplace.jpg');
+	background-size: cover;
+	background-position: center;
+	height:100vh;
+
+}
+.logo img
+{
+	float: left;
+	width: 150px;
+	height: auto;
+}
+.navbar
+{
+	max-width: 1200px;
+	margin: auto;
+}
+.menu
+{
+	float: right;
+	list-style: none;
+	margin-top:20px;
+}
+li
+{
+	display: inline-block;
+}
+.menu li a
+{
+	font-family:"rorboto",sans-serif;
+	font-size: 15px;
+	padding: 5px 18px;
+	color:white;
+	text-decoration: none;
+}
+.menu .active a
+{
+	border: 1px solid white;
+}
+.menu li a:hover
+{
+	border:1px solid white;
+}
+body
+{
+	font-family:sans-serif;
+}
+.hero
+{
+	position: absolute;
+	width:1200px;
+	margin-left: 0px;
+	margin-top:0px;
+}
+h1
+{
+	color: white;
+	font-size: 70px;
+	letter-spacing: 1.5px;
+	margin-top:275px; 
+}
+.button
+{
+	margin-top:30px;
+	margin-left:72px;
+}
+.btn
+{
+	border: 1px solid white;
+	padding:10px 30px;
+	color:white;
+	text-decoration: none;
+	text-transform: uppercase;
+	font-size: 13px;
+	margin-right:5px;
+}
+.btn-one
+{
+	background-color: darkorange;
+}
+.btn-two:hover
+{
+	background-color: darkorange;
+	transition:all 0.5s ease;
+}
