@@ -1,0 +1,48 @@
+/*import fonts from fonts.css file*/
+@import url(./fonts.css);
+/*css variables*/
+@import url(./partials/_variables.css);
+body
+{
+	/*background-color:#10222e;*/
+}
+/*.navbar-custom
+ { 
+    background-color:#10222e; 
+ }
+ */
+ .header_area .main-menu .navbar .navbar-brand
+ {
+ 	padding: 0.1rem 0.2rem;
+ }
+ .header_area .main-menu .navbar
+ {
+ 	padding: 0.1rem 10rem;
+ }
+ /.navbar-brand img
+ {
+ 	height:190px;
+ 	width: 120px;
+ }
+ .header_area .main-menu .nav-item .nav-link
+ {
+ 	font-family:cursive;
+ 	text-transform: uppercase;
+ 	font-weight: 500;
+ 	padding: 1.7rem;
+ 	color:var(--title-color);
+ } 
+ .header_area .main-menu .navbar-nav .active a
+ {
+ 	background: var(--gradient-color);
+ 	-webkit-background-clip:text;
+ 	-webkit-text-fill-color:transparent;
+ 	background-clip: text;
+ }
+ .header_area .main-menu .navbar-nav a:hover
+ {
+ 	background: var(--gradient-color);
+ 	-webkit-background-clip:text;
+ 	-webkit-text-fill-color:transparent;
+ 	background-clip: text;
+ }
